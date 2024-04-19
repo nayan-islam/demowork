@@ -1,0 +1,383 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+/* ================================ */
+.swiper1 {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper1 .swiper-slide p {
+    transform: rotate(-90deg);
+    position: absolute;
+    left: -321%;
+    top: 48%;
+    width: 744%;
+    text-align: center;
+    color: aliceblue;
+    font-size: 20px;
+}
+/* ================================ */
+/* ================================ */
+.topRightSlider,
+.topLeftSlider{
+    position: relative;
+}
+
+.topRightSlider ul,
+.topLeftSlider ul{
+    position: absolute;
+    left: 50%;
+    bottom: 30px;
+    transform: translateX(-50%);
+    list-style-type: none;
+    display: flex;
+    column-gap: 10px;
+}
+
+.topRightSlider ul li button,
+.topLeftSlider ul li button{
+    width: 20px;
+    height: 20px;
+    background: #069bd1;
+    border-radius:  50%;
+    border: 0;
+    font-size: 0;
+    
+}
+
+.topRightSlider ul .slick-active button,
+.topLeftSlider ul .slick-active button{
+    border: 4px solid rgb(255, 255, 255);
+    
+}
+
+/* ================================ */
+/* ================================ */
+/* .swiper2 {
+    width: 100%;
+    height: 100%;
+    background: #b7b7b7;
+  } */
+  /* .swiper2 .swiper-slide p {
+    transform: rotate(-90deg);
+    position: absolute;
+    left: -321%;
+    top: 48%;
+    width: 744%;
+    text-align: center;
+    color: aliceblue;
+    font-size: 20px;
+} */
+
+/* ================================ */
+
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+/* 
+.top .container{
+    display: flex;
+    margin-bottom: 24px;
+    column-gap: 3px;
+}
+
+.top .container .left{
+    width: 48%;
+    height: 400px;
+    background: #30995f;
+}
+
+.top .container .left .topLeftSlider{
+    width: 100%;
+    height: 400px;
+    background: #b67272;
+}
+
+.top .container .left .slide{
+    width: 100%;
+    height: 400px;
+}
+
+.top .container  .slide img,
+.top .container  .slide video
+{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.top .container .middle{
+    width: 4%;
+    height: 400px;
+    background: #069bd1;
+} */
+
+.main .container .one {
+    height: 530px;
+    clip-path: polygon(0 0, 100% 0%, 100% 20%, 0% 100%);
+}
+
+.main .container .one .child{
+    width: 100%;
+    height: 100%;
+    background: #14c36e;
+}
+
+
+.main .container  .slide img,
+.main .container  .slide video
+{
+    width: 100%;
+    height: 530px;
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ========================================================================================================= */
+/* ========================================================================================================= */
+/* ========================================================================================================= */
+
+
+.main .container .two {
+    height: 715px;
+    clip-path: polygon(0% 59.5%, 100% 0%, 100% 17.5%, 0% 77%);
+    margin-top: -414px;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+    position: relative;
+    overflow: hidden;
+}
+/* .main .container .two::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background: rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.9px);
+    -webkit-backdrop-filter: blur(6.9px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+} */
+
+.main .container .two .videoSlide {
+    height: 103px;
+    width: 104%;
+    transform: rotate(-19.5deg) skewX(-20deg);
+    position: absolute;
+    top: 219px;
+    left: -23px;
+}
+
+.main .container .two .videoSlide .slidevideo{
+    margin: 0 10px;
+    border: 2px solid rgba(158, 158, 158, 0.482);
+}
+.main .container .two .videoSlide .slidevideo .text{
+    padding: 5px 8px;
+}
+.main .container .two .videoSlide .slidevideo .text p{
+    font-size: 14px;
+}
+.main .container .two .videoSlide .slidevideo video,
+.main .container .two .videoSlide .slidevideo .text,
+.main .container .two .videoSlide .slidevideo img{
+    width: 100%;
+    height: 103px;
+    object-fit: cover;
+    display: block;
+}
+
+
+
+
+
+
+
+
+.main .container .three {
+    height: 530px;
+    clip-path: polygon(0 80%, 100% 0, 100% 100%, 0% 100%);
+    margin-top: -585px;
+}
+
+.main .container .three .child{
+    width: 100%;
+    height: 100%;
+    background: #14c36e;
+}
+/* ===================================================== */
+.ad{
+    margin: 15px auto 0;
+}
+.ad img{
+    height: 50px;
+}
+/* ===================================================== */
+.bottom .container{
+    position: relative;
+}
+
+.bottom .container .bchild {
+    width: 300px;
+    height: 150px;
+    text-align: center;
+    display: flex;
+    align-items: flex-start;
+}
+
+.bottom .container .bchild h3 {
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 1.1);
+    backdrop-filter: blur(6.9px);
+    -webkit-backdrop-filter: blur(6.9px);
+    width: 100%;
+    padding: 5px 0;
+    color: aliceblue;
+    text-shadow: 1px 1px 1px #000, 
+               1px 1px 1px rgb(0, 0, 0);
+    cursor: pointer;
+}
+.bottom .container .bchild:nth-child(even){
+    align-items: flex-end;
+}
+
+.bottom .container .bchild:first-child{
+    clip-path: polygon(0 100%, 50% 0, 0 0);
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    background: #000;
+    flex-direction: column;
+    cursor: pointer;
+
+}
+
+.bottom .container .bchild:last-child{
+    clip-path: polygon(100% 100%, 50% 0, 100% 0);
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: flex;
+    align-items: flex-end;
+    background: #000;
+    flex-direction: column;
+    cursor: pointer;
+    
+}
+
+.bottom .container .bchild:first-child h3{
+    text-align: left;
+    font-size: 16px;
+    
+    padding-left: 10px;
+
+}
+
+.bottom .container .bchild:last-child h3{
+    text-align: right;
+    font-size: 16px;
+    padding-right: 10px;
+}
+
+.bottom .container .bchild:first-child i {
+    font-size: 35px;
+    color: #ffffff;
+    margin: 20px;
+}
+
+.bottom .container .bchild:last-child i{
+    font-size: 35px;
+    color: #ffffff;
+    margin: 20px;
+}
+
+.bottom .container .bchild:nth-child(2){
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url(../images/cat/cons.jpg) no-repeat center / cover;
+    
+}
+
+.bottom .container .bchild:nth-child(3){
+    clip-path: polygon(50% 100%, 0 0, 100% 0);
+    position: absolute;
+    left: 150px;
+    top: 0;
+    background: url(../images/cat/linner.jpg) no-repeat center / cover;
+    
+}
+
+.bottom .container .bchild:nth-child(4){
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    position: absolute;
+    left: 300px;
+    top: 0;
+    background: url(../images/cat/spot.jpg) no-repeat center / cover;
+    
+}
+
+.bottom .container .bchild:nth-child(5){
+    clip-path: polygon(50% 100%, 0 0, 100% 0);
+    position: absolute;
+    left: 450px;
+    top: 0;
+    background: url(../images/cat/magnetic.jpg) no-repeat center / cover;
+    
+}
+
+.bottom .container .bchild:nth-child(6){
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    position: absolute;
+    left: 600px;
+    top: 0;
+    background: url(../images/cat/deco.jpg) no-repeat center / cover;
+    
+}
+
+.bottom .container .bchild:nth-child(7){
+    clip-path: polygon(50% 100%, 0 0, 100% 0);
+    position: absolute;
+    left: 750px;
+    top: 0;
+    background: url(../images/cat/Landscaping.jpg) no-repeat center / cover;
+    
+}
+
+.bottom .container .bchild:nth-child(8){
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    position: absolute;
+    left: 900px;
+    top: 0;
+    background: url(../images/cat/smart.jpg) no-repeat center / cover;
+    
+}
